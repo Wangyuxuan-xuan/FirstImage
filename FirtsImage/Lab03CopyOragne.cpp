@@ -15,6 +15,7 @@ void copyOrangeRGB(const cv::Mat& rgb, cv::Mat& dest) {
     Although it is most common that this means an RGB (or actually BGR) image, 
     it does not mandate it. It simply means that there are three channel*/
 
+    //nice
     cv::Vec3b c;
     for (int i = 0; i < rgb.rows; ++i) {
         for (int j = 0; j < rgb.cols; ++j) {
