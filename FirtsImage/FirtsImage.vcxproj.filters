@@ -33,6 +33,18 @@
     <ClInclude Include="Lab03Floor.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="lab04ContrastStreching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lab04histoEq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lab04NoiseFilters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="contour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="image.cpp">
@@ -51,6 +63,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Lab03Floor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lab04ContrastStreching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lab04histoEq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lab04NoiseFilters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="contour.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

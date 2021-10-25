@@ -131,18 +131,26 @@
   <ItemGroup>
     <ClInclude Include="class02.h" />
     <ClInclude Include="class03.h" />
+    <ClInclude Include="contour.h" />
     <ClInclude Include="image.h" />
     <ClInclude Include="lab03.h" />
     <ClInclude Include="Lab03CopyOragne.h" />
     <ClInclude Include="Lab03Floor.h" />
+    <ClInclude Include="lab04ContrastStreching.h" />
+    <ClInclude Include="lab04histoEq.h" />
+    <ClInclude Include="lab04NoiseFilters.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="class02.cpp" />
     <ClCompile Include="class03.cpp" />
+    <ClCompile Include="contour.cpp" />
     <ClCompile Include="image.cpp" />
     <ClCompile Include="lab03.cpp" />
     <ClCompile Include="Lab03CopyOragne.cpp" />
     <ClCompile Include="Lab03Floor.cpp" />
+    <ClCompile Include="lab04ContrastStreching.cpp" />
+    <ClCompile Include="lab04histoEq.cpp" />
+    <ClCompile Include="lab04NoiseFilters.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

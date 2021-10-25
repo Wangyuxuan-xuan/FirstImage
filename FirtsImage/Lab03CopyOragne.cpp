@@ -104,34 +104,34 @@ void copyOrangeHSV3(const cv::Mat_<cv::Vec3b>& rgb, cv::Mat_<cv::Vec3b>& dest) {
 }
 
 
-int main() {
-
-    Mat orig = imread("images//orange1.jpg");
-    if (orig.empty())
-    {
-        cout << "A empty image" << endl;
-        exit(-1);
-    }
-
-    Mat dest_rgb;
-    copyOrangeRGB(orig, dest_rgb);
-
-    Mat dest_hsv;
-    copyOrangeHSV(orig, dest_hsv);
-
-    Mat_<Vec3b> dest_hsv2;
-    copyOrangeHSV2(orig, dest_hsv2);
-
-    Mat_<Vec3b> dest_hsv3;
-    copyOrangeHSV3(orig, dest_hsv3);
-
-
-    imshow("original", orig);
-    imshow("using_rgb", dest_rgb);
-    imshow("using_hsv_v1", dest_hsv);
-    imshow("using_hsv_v2", dest_hsv2);
-    imshow("using_hsv_v3", dest_hsv3);
-    waitKey(0);
-
-    return 0;
-}
+//int main() {
+//
+//    Mat orig = imread("images//orange1.jpg");
+//    if (orig.empty())
+//    {
+//        cout << "A empty image" << endl;
+//        exit(-1);
+//    }
+//
+//    Mat dest_rgb;
+//    copyOrangeRGB(orig, dest_rgb);
+//
+//    Mat dest_hsv;
+//    copyOrangeHSV(orig, dest_hsv);
+//
+//    Mat_<Vec3b> dest_hsv2;
+//    copyOrangeHSV2(orig, dest_hsv2);
+//
+//    Mat_<Vec3b> dest_hsv3;
+//    copyOrangeHSV3(orig, dest_hsv3);
+//
+//
+//    imshow("original", orig);
+//    imshow("using_rgb", dest_rgb);
+//    imshow("using_hsv_v1", dest_hsv);
+//    imshow("using_hsv_v2", dest_hsv2);
+//    imshow("using_hsv_v3", dest_hsv3);
+//    waitKey(0);
+//
+//    return 0;
+//}
